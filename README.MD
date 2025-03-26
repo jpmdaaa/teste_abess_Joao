@@ -37,7 +37,6 @@ Um projeto full-stack para visualização de cotações de moedas estrangeiras e
 * PostgreSQL 14+
 * pgAdmin 4 (opcional)
 
-
 ### Configuração do Backend:
 
 1. **Configure o ambiente virtual**
@@ -47,39 +46,27 @@ Um projeto full-stack para visualização de cotações de moedas estrangeiras e
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate   
    ```
-
-
-1. **Instale as dependências**
-   bash
-
-   Copy
+2. **Instale as dependências**
 
    ```
    pip install -r requirements.txt
    ```
-
-
-1. **Configure o banco de dados**
+3. **Configure o banco de dados**
 
    * Crie um banco chamado `cotacoes_db` no PostgreSQL
    * Atualize as credenciais em `backend/settings.py`
-2. **Aplique as migrações**
-   bash
-
-   Copy
+4. **Aplique as migrações**
+   
 
    ```
    python manage.py migrate
    ```
-3. **Inicie o servidor**
-   bash
+5. **Inicie o servidor**
 
-   Copy
 
    ```
    python manage.py runserver
    ```
-
 
 ### Configuração do Frontend:
 
@@ -98,7 +85,6 @@ Um projeto full-stack para visualização de cotações de moedas estrangeiras e
    ```
    npm run dev
    ```
-
 
 ## API:
 
