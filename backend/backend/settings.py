@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-kzlv-!6tgy*2qm*xj%o^s1jzexj6ikqdg(hce59vv%j68l80==
 DEBUG = True
 
 # Atualize ALLOWED_HOSTS para:
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'joaosky.pythonanywhere.com']
 
 
 # Application definition
