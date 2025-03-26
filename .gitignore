@@ -1,0 +1,15 @@
+# Dependências do Node.js
+node_modules/
+
+# Ambiente virtual Python
+venv/
+.venv/
+
+# Arquivos do Django
+*.pyc
+__pycache__/
+db.sqlite3
+
+# Arquivos de ambiente
+.env
+.env.local

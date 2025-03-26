@@ -1,0 +1,29 @@
+# Django e core
+Django==4.2.20
+django-rest-framework==0.1.0
+djangorestframework==3.14.0
+
+# Banco de dados
+psycopg2-binary==2.9.9
+dj-database-url==2.1.0
+
+# CORS e segurança
+django-cors-headers==4.3.1
+python-dotenv==1.0.0
+
+# API Externa
+requests==2.31.0
+
+# Logging
+loguru==0.7.2
+
+# Gerenciamento de ambiente
+virtualenv==20.24.5
+
+# Ferramentas de desenvolvimento
+ipython==8.17.2
+python-decouple==3.8
+
+# Testes (opcional)
+pytest==7.4.2
+pytest-django==4.5.2
